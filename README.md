@@ -1,6 +1,6 @@
 # CRACKED-PHP
 
-A minimal, statically-linked HTTP server docker container image based on FrankenPHP and DaemonTools, designed to serve PHP applications in a KISS manner.
+A minimal docker container based on FrankenPHP and DaemonTools. Designed to serve PHP applications in a KISS manner.
 
 ### Features
 - **Ultra-minimal footprint**: Built from scratch container with only essential static binaries
@@ -15,7 +15,7 @@ A minimal, statically-linked HTTP server docker container image based on Franken
 - **DaemonTools**: Process supervision and management
 - **BusyBox**: Helpful Unix utilities
 
-*All binaries are statically linked*
+__All binaries are statically linked__
 
 ## How to use the image for an application
 Look at the `example-app` directory for an example.
@@ -55,7 +55,9 @@ your-app/
         └── run          # Executable script to start FrankenPHP
 ```
 
-Try the example-app:
+### Running the example-app
+
+
 ```bash
 cd example-app
 make build
