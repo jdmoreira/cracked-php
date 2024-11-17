@@ -1,0 +1,4 @@
+#!/bin/busybox sh
+
+cd /app || exit 1
+exec frankenphp run
